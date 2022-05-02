@@ -1,0 +1,19 @@
+
+
+.head {
+  left: 335px;
+  top: 77px;
+
+  position: absolute;
+  width: 582px;
+  height: 105px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 97px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}

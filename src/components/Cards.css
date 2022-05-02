@@ -1,0 +1,170 @@
+.card1 {
+  height: 1026px;
+  width: 1252px;
+  left: 224px;
+  top: 294px;
+
+  position: absolute;
+  width: 360px;
+  height: 530px;
+  
+  border-radius: 15px;
+  border: solid 3px transparent;
+  background-image: linear-gradient(#2D3050,#090C32), 
+  linear-gradient(153.68deg, #FE3688 -1.09%, #73BCFF 29.62%, #B9DCFF 62.2%, #FE3688 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.card1:hover {
+  background-image: linear-gradient(334.7deg, #FE3688 0%, #73BCFF 94.7%), 
+  linear-gradient(153.68deg, #FE3688 -1.09%, #73BCFF 29.62%, #B9DCFF 62.2%, #FE3688 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.card1:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(177.08deg, rgba(254, 54, 136, 0.5) 1.95%, rgba(59, 130, 241, 0.5) 95.62%);
+  filter: blur(100px);
+}
+
+.section {
+  position: absolute;
+  width: 1252px;
+  height: 1026px;
+  
+  background: #16193D;
+}
+
+.text {
+  left: 84px;
+  top: 314px;
+  
+  position: absolute;
+  width: 250px;
+  height: 46px;
+
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.image {
+  height: 225px;
+  width: 225px;
+  left: 69px;
+  top: 43px;
+
+  position: absolute;
+}
+
+.subtext {
+  left: 23px;
+  top: 375px; 
+
+  position: absolute;
+  width: 315px;
+  height: 81px;
+
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.card2 {
+  height: 1026px;
+  width: 1252px;
+  left: 668px;
+  top: 294px;
+
+  position: absolute;
+  width: 360px;
+  height: 530px;
+
+  border-radius: 15px;
+  border: solid 3px transparent;
+  background-image: linear-gradient(#2D3050,#090C32), 
+  linear-gradient(153.68deg, #FE3688 -1.09%, #73BCFF 29.62%, #B9DCFF 62.2%, #FE3688 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.card2:hover {
+  background-image: linear-gradient(334.7deg, #FE3688 0%, #73BCFF 94.7%), 
+  linear-gradient(153.68deg, #FE3688 -1.09%, #73BCFF 29.62%, #B9DCFF 62.2%, #FE3688 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.card2:hover::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(177.08deg, rgba(254, 54, 136, 0.5) 1.95%, rgba(59, 130, 241, 0.5) 95.62%);
+  filter: blur(100px);
+}
+
+.text2 {
+  left: 111px;
+  top: 314px;
+  
+  position: absolute;
+  width: 133px;
+  height: 46px;
+
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.image2 {
+  height: 325px;
+  width: 325px;
+  left: 19px;
+  top: 0px;
+
+  position: absolute;
+}
+
+.subtext2 {
+  left: 19px;
+  top: 375px; 
+
+  position: absolute;
+  width: 315px;
+  height: 81px;
+
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
